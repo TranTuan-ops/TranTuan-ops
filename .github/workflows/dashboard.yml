@@ -26,8 +26,6 @@ jobs:
       - name: Generate dashboard
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GL_TOKEN: ${{ secrets.GL_TOKEN }}
-          GITLAB_USERNAME: YOUR_GITLAB_USERNAME
         run: python scripts/generate_dashboard.py
 
       - name: Commit dashboard
