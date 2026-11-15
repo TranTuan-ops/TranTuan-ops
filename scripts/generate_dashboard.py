@@ -13,10 +13,8 @@ from xml.sax.saxutils import escape
 # ==========================================
 
 GITHUB_USERNAME = "TranTuan-ops"
-GITLAB_USERNAME = os.environ.get("GITLAB_USERNAME", "YOUR_GITLAB_USERNAME")
 
 GH_TOKEN = os.environ["GH_TOKEN"]
-GL_TOKEN = os.environ["GL_TOKEN"]
 
 TODAY = date.today()
 START_DATE = TODAY - timedelta(days=364)
@@ -68,14 +66,6 @@ def get_github_data():
     }
     """
 
-    variables = {
-        "login": GITHUB_USERNAME,
-        "from": datetime.combine(
-            START_DATE, datetime.min.time(), timezone.utc
-        ).isoformat(),
-        "to": datetime.now(timezone.utc).isoformat()
-    }
-
     payload = json.dumps({
         "query": query,
         "variables": variables
@@ -114,78 +104,11 @@ def get_github_data():
 
     return daily, calendar["totalContributions"]
 
-
-# ==========================================
-# GITLAB EVENTS
-# ==========================================
-
-def get_gitlab_data():
-    print("Fetching GitLab events...")
-
-    if not GITLAB_USERNAME or GITLAB_USERNAME == "YOUR_GITLAB_USERNAME":
-        raise RuntimeError(
-            "Please set your actual GitLab username."
-        )
-
-    username = urllib.parse.quote(GITLAB_USERNAME, safe="")
-
-    base_url = (
-        f"https://gitlab.com/api/v4/users/"
-        f"{username}/events"
-    )
-
-    params = {
-        "after": START_DATE.isoformat(),
-        "before": TODAY.isoformat(),
-        "per_page": 100,
-        "page": 1,
-        "sort": "asc"
-    }
-
-    daily = defaultdict(int)
-    total = 0
-
-    while True:
-        url = base_url + "?" + urllib.parse.urlencode(params)
-
-        events, headers = request_json(
-            url,
-            headers={
-                "PRIVATE-TOKEN": GL_TOKEN,
-                "User-Agent": "Contribution-Dashboard"
-            }
-        )
-
-        if not events:
-            break
-
-        for event in events:
-            event_date = datetime.fromisoformat(
-                event["created_at"].replace("Z", "+00:00")
-            ).date()
-
-            if START_DATE <= event_date <= TODAY:
-                daily[event_date] += 1
-                total += 1
-
-        next_page = headers.get("X-Next-Page")
-
-        if not next_page:
-            break
-
-        params["page"] = int(next_page)
-
-    print("GitLab total events:", total)
-
-    return dict(daily), total
-
-
 # ==========================================
 # MERGE DATA
 # ==========================================
 
 github_daily, github_total = get_github_data()
-gitlab_daily, gitlab_total = get_gitlab_data()
 
 daily = defaultdict(int)
 
