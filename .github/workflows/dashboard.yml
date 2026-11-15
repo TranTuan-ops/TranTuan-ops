@@ -1,0 +1,37 @@
+
+name: Update Contribution Dashboard
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-dashboard:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate dashboard
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GL_TOKEN: ${{ secrets.GL_TOKEN }}
+          GITLAB_USERNAME: YOUR_GITLAB_USERNAME
+        run: python scripts/generate_dashboard.py
+
+      - name: Commit dashboard
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update contribution dashboard"
+          file_pattern: dashboard.svg
