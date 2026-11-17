@@ -3,7 +3,7 @@
 1. Visit GitHub – New Repository.
 2. Name the repository after your GitHub username.
 
-For example, if your username is `TranTuan-ops`, name the repository `TranTuan-ops`.\
+For example, if your username is `trantuandev`, name the repository `trantuandev`.\
 3\. Select **Public**.\
 4\. Check **Add a README file**.\
 5\. Click **Create repository**.
@@ -15,7 +15,7 @@ To automatically update the snake image based on GitHub activity, use GitHub Act
 In your repository, create this directory and file:
 
 ```
-TranTuan-ops/
+trantuandev/
 └── .github/
     └── workflows/
         └── contributions.yml
@@ -80,7 +80,7 @@ In your repository:
 3. Click **Run workflow**.
 4. Wait for the workflow to succeed (a green check mark).
 
-You will then have this URL: https://raw.githubusercontent.com/TranTuan-ops/TranTuan-ops/main/contributions.svg
+You will then have this URL: https://raw.githubusercontent.com/trantuandev/trantuandev/main/contributions.svg
 
 
 ## **5. Display It in Your GitHub Profile README**
@@ -97,7 +97,7 @@ Add this snippet to your `README.md`:
 Add the following files to your repository:
 
 ```
-TranTuan-ops/
+trantuandev/
 │
 ├── .github/
 │   └── workflows/
@@ -152,7 +152,7 @@ GitLab uses the `read_user` permission to query user activity through the Events
 
 Open the repository:
 
-[TranTuan-ops – Actions secrets]
+[trantuandev – Actions secrets]
 
 Select **New repository secret** and create these two secrets:
 
@@ -196,7 +196,7 @@ from xml.sax.saxutils import escape
 # CONFIGURATION
 # ==========================================
 
-GITHUB_USERNAME = "TranTuan-ops"
+GITHUB_USERNAME = "trantuandev"
 GITLAB_USERNAME = os.environ.get("GITLAB_USERNAME", "YOUR_GITLAB_USERNAME")
 
 GH_TOKEN = os.environ["GH_TOKEN"]
@@ -690,7 +690,7 @@ After you save the file, the workflow will run daily at 00:00 UTC (07:00 Vietnam
 
 ## **6. Display the Dashboard on Your GitHub Profile**
 
-Open `README.md` in the `TranTuan-ops/TranTuan-ops` repository.
+Open `README.md` in the `trantuandev/trantuandev` repository.
 
 Add the following snippet wherever you want the dashboard to appear:
 
@@ -700,7 +700,7 @@ Add the following snippet wherever you want the dashboard to appear:
 
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/TranTuan-ops/TranTuan-ops/main/dashboard.svg"
+    src="https://raw.githubusercontent.com/trantuandev/trantuandev/main/dashboard.svg"
     alt="Contribution Dashboard"
     width="100%"
   />
@@ -710,7 +710,7 @@ Add the following snippet wherever you want the dashboard to appear:
 
 Click **Commit changes** to save.
 
-After the workflow succeeds, you can open the dashboard here: https://github.com/TranTuan-ops/TranTuan-ops/blob/main/dashboard.svg?utm_source=chatgpt.com
+After the workflow succeeds, you can open the dashboard here: https://github.com/trantuandev/trantuandev/blob/main/dashboard.svg?utm_source=chatgpt.com
 
 ## **7. Test the Dashboard**
 

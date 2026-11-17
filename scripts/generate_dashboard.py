@@ -10,7 +10,7 @@ from xml.sax.saxutils import escape
 # CONFIGURATION
 # ==========================================
 
-GITHUB_USERNAME = "TranTuan-ops"
+GITHUB_USERNAME = "trantuandev"
 GH_TOKEN = os.environ["GH_TOKEN"]
 
 TODAY = datetime.date.today()
