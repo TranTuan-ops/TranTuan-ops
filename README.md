@@ -110,7 +110,7 @@ Hi, I'm Tran Tuan, a Software Engineering graduate from FPT University. I'm inte
 | **Project Details** | **Information** |
 | :--- | :--- |
 | **Course** | Experiential Entrepreneurship 2 - EXE201 |
-| **Team Members** | Tran Tuan (Personal Project) |
+| **Team Members** | Tran Tuan, Van |
 
 > A dedicated e-commerce web platform designed to distribute and promote pure natural star anise essential oil, providing aromatherapy solutions, seamless shopping, and automated order fulfillment.
 
@@ -143,8 +143,8 @@ Hi, I'm Tran Tuan, a Software Engineering graduate from FPT University. I'm inte
 
 | **Project Details** | **Information** |
 | :--- | :--- |
-| **Course** | Thực tập tại FPT Software Academy |
-| **Team Members** | Group 4 (Tran Tuan - Full-stack Developer) |
+| **Course** | Internship at FPT Software Academy |
+| **Team Members** | Tran Tuan, Hieu, Anh, Nghiem |
 
 > A modern recruitment web portal inspired by TopCV, connecting job seekers and employers through resume uploading, career opportunity filtering, and application management.
 
@@ -161,7 +161,7 @@ Hi, I'm Tran Tuan, a Software Engineering graduate from FPT University. I'm inte
 | **Project Details** | **Information** |
 | :--- | :--- |
 | **Course** | Software Development Project - SWP391 |
-| **Team Members** | Group 4 (Tran Tuan, Team Members) |
+| **Team Members** | Tran Tuan, Ninh Nam, Van |
 
 > A centralized job seeking and recruitment web system that streamlines job listings, applicant screening, and corporate profile management.
 
@@ -178,7 +178,7 @@ Hi, I'm Tran Tuan, a Software Engineering graduate from FPT University. I'm inte
 | **Project Details** | **Information** |
 | :--- | :--- |
 | **Course** | Multiplatform Mobile App Development - MMA301 |
-| **Team Members** | Group 2 - Chu The Van, Tran Tuan, Xuan Dai, Dang Kien, Danh Hao |
+| **Team Members** | Chu The Van, Tran Tuan, Xuan Dai, Dang Kien, Danh Hao |
 
 > A native mobile application connecting travelers, tour guides, and administrators, supporting tour discovery, booking, guide dispatching, and in-app real-time communication.
 
