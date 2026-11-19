@@ -46,7 +46,7 @@ jobs:
       - name: Generate snake
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: vanct-official
+          github_user_name: trantuandev
           outputs: dist/contributions.svg
 
       - name: Copy SVG
@@ -59,7 +59,7 @@ jobs:
 
 ```
 
-**Note:** Replace `vanct-official` with your GitHub username if it is different.
+**Note:** Replace `trantuandev` with your GitHub username if it is different.
 
 This workflow creates `contributions.svg` on the `main` branch and updates it daily.
 
@@ -88,7 +88,7 @@ You will then have this URL: https://raw.githubusercontent.com/trantuandev/trant
 Add this snippet to your `README.md`:
 
 ```
-<img src="https://raw.githubusercontent.com/vanct-official/vanct-official/main/contributions.svg" alt="GitHub Contributions Snake" />
+<img src="https://raw.githubusercontent.com/trantuandev/trantuandev/main/contributions.svg" alt="GitHub Contributions Snake" />
 ```
 
 
