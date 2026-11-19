@@ -213,8 +213,14 @@ Hi, I'm Tran Tuan, a Software Engineering graduate from FPT University. I'm inte
   <a href="https://github.com/trantuandev">
     <img src="https://raw.githubusercontent.com/trantuandev/trantuandev/main/dashboard.svg" alt="Contribution Dashboard" width="100%" />
   </a>
-  <p><i>Daily activity aggregated from GitHub &bull; Automatically updated by GitHub Actions</i></p>
+  
 </div>
+<br/>
+
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=trantuandev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="GitHub stats" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=trantuandev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top languages" />
+</p>
 
 
 <h3 align="center">🐍 My GitHub Contributions</h3>
@@ -222,18 +228,3 @@ Hi, I'm Tran Tuan, a Software Engineering graduate from FPT University. I'm inte
 <p align="center">
   <img src="https://raw.githubusercontent.com/trantuandev/trantuandev/main/contributions.svg" alt="GitHub Contribution Snake" />
 </p>
-
-<h2 align="left">
-  🔔 Contact Me:
-  <a href="https://www.facebook.com/tuankhu4hahoa/" target="_blank" rel="noopener noreferrer">
-    <img width="24" height="24" src="./assets/facebook.svg" alt="Facebook" title="Facebook" />
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/..." target="_blank" rel="noopener noreferrer">
-    <img width="24" height="24" src="./assets/linkedin.svg" alt="LinkedIn" title="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="mailto:tranvantuanunique@gmail.com">
-    <img width="24" height="24" src="./assets/gmail.svg" alt="Email" title="Email" />
-  </a>
-</h2>
