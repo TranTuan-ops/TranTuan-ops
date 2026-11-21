@@ -10,7 +10,18 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=550&lines=Software+Engineering+Graduate+FPT+University;Practicing+Front-end+Programming;Practicing+Back-end+Programming" alt="Typing SVG" />
 </p>
 
-## 👋 About Me
+<br>
+
+<p align="center">
+  <a href="https://cv-trantuandev.vercel.app/">
+    <img src="https://img.shields.io/badge/CV%20Online-61DAFB?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="CV Online" />
+  </a>
+  <a href="https://github.com/trantuandev">
+    <img src="https://img.shields.io/badge/GitHub-trantuandev-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub" />
+  </a>
+</p>
+
+## 1. About Me
 
 Hi, I'm Tran Tuan, a Software Engineering graduate from FPT University. I'm interested in building useful web applications and growing my skills across frontend and backend development.
 
@@ -18,7 +29,7 @@ Hi, I'm Tran Tuan, a Software Engineering graduate from FPT University. I'm inte
 - **Backend:** I'm building experience with Node.js, Express, APIs, and databases.
 - **Project work:** Experienced in full-stack web and mobile development across Capstone projects, enterprise mock recruitment systems, e-commerce, and collaborative productivity applications.
 
-## 🧰 Tech Stack
+## 2. Tech Stack
 
 <table width="100%">
   <tbody>
@@ -78,7 +89,7 @@ Hi, I'm Tran Tuan, a Software Engineering graduate from FPT University. I'm inte
   </tbody>
 </table>
 
-## 📚 Currently Learning
+## Currently Learning
 
 - Advanced React.js and modern Frontend development.
 - Node.js and Express.js for Backend development.
@@ -86,14 +97,14 @@ Hi, I'm Tran Tuan, a Software Engineering graduate from FPT University. I'm inte
 - Docker, Linux, and CI/CD fundamentals.
 - Software architecture and clean code practices.
 
-## 🚀 Featured Projects
+## 3. Featured Projects
 
 ### ☕ Coffee Shop Management & Smart POS System
 
-| **Project Details** | **Information** |
-| :--- | :--- |
-| **Course** | SE Capstone Project - SEP490 |
-| **Team Members** | Tran Tuan, Van, Hung, Khai, Tien, Kien |
+| **Project Details** | **Information**                        |
+| :------------------ | :------------------------------------- |
+| **Course**          | SE Capstone Project - SEP490           |
+| **Team Members**    | Tran Tuan, Van, Hung, Khai, Tien, Kien |
 
 > A comprehensive smart management and POS ecosystem for coffee shops and beverage chains, featuring omnichannel sales (Takeaway POS, Dine-in QR, Online Delivery), real-time Kitchen Display System (KDS), Google Gemini AI integration, and AWS Rekognition facial recognition staff attendance.
 
@@ -107,10 +118,10 @@ Hi, I'm Tran Tuan, a Software Engineering graduate from FPT University. I'm inte
 
 ### 🌿 Bản Hương - Star Anise Essential Oil E-Commerce Platform
 
-| **Project Details** | **Information** |
-| :--- | :--- |
-| **Course** | Experiential Entrepreneurship 2 - EXE201 |
-| **Team Members** | Tran Tuan, Van |
+| **Project Details** | **Information**                          |
+| :------------------ | :--------------------------------------- |
+| **Course**          | Experiential Entrepreneurship 2 - EXE201 |
+| **Team Members**    | Tran Tuan, Van                           |
 
 > A dedicated e-commerce web platform designed to distribute and promote pure natural star anise essential oil, providing aromatherapy solutions, seamless shopping, and automated order fulfillment.
 
@@ -124,10 +135,10 @@ Hi, I'm Tran Tuan, a Software Engineering graduate from FPT University. I'm inte
 
 ### 🐾 Pet Nest - Pet Care & E-commerce Platform
 
-| **Project Details** | **Information** |
-| :--- | :--- |
-| **Course** | Web Development Project - WDP301 |
-| **Team Members** | Tran Tuan, Van Nguyen, Huy, Hieu, Minh |
+| **Project Details** | **Information**                        |
+| :------------------ | :------------------------------------- |
+| **Course**          | Web Development Project - WDP301       |
+| **Team Members**    | Tran Tuan, Van Nguyen, Huy, Hieu, Minh |
 
 > A web application bringing pet supply shopping, comprehensive pet health profiles, and professional spa service bookings together into a unified platform.
 
@@ -143,10 +154,10 @@ Hi, I'm Tran Tuan, a Software Engineering graduate from FPT University. I'm inte
 
 ### 💼 Web_CV - Recruitment & Job Search Platform
 
-| **Project Details** | **Information** |
-| :--- | :--- |
-| **Course** | Internship at FPT Software Academy |
-| **Team Members** | Tran Tuan, Hieu, Anh, Nghiem |
+| **Project Details** | **Information**                    |
+| :------------------ | :--------------------------------- |
+| **Course**          | Internship at FPT Software Academy |
+| **Team Members**    | Tran Tuan, Hieu, Anh, Nghiem       |
 
 > A modern recruitment web portal inspired by TopCV, connecting job seekers and employers through resume uploading, career opportunity filtering, and application management.
 
@@ -160,10 +171,10 @@ Hi, I'm Tran Tuan, a Software Engineering graduate from FPT University. I'm inte
 
 ### 🔍 Job Seeker System - Career Opportunity Platform
 
-| **Project Details** | **Information** |
-| :--- | :--- |
-| **Course** | Software Development Project - SWP391 |
-| **Team Members** | Tran Tuan, Ninh Nam, Van |
+| **Project Details** | **Information**                       |
+| :------------------ | :------------------------------------ |
+| **Course**          | Software Development Project - SWP391 |
+| **Team Members**    | Tran Tuan, Ninh Nam, Van              |
 
 > A centralized job seeking and recruitment web system that streamlines job listings, applicant screening, and corporate profile management.
 
@@ -177,10 +188,10 @@ Hi, I'm Tran Tuan, a Software Engineering graduate from FPT University. I'm inte
 
 ### 📱 Tourio - Tour Booking & Travel Management App
 
-| **Project Details** | **Information** |
-| :--- | :--- |
-| **Course** | Multiplatform Mobile App Development - MMA301 |
-| **Team Members** | Chu The Van, Tran Tuan, Xuan Dai, Dang Kien, Danh Hao |
+| **Project Details** | **Information**                                       |
+| :------------------ | :---------------------------------------------------- |
+| **Course**          | Multiplatform Mobile App Development - MMA301         |
+| **Team Members**    | Chu The Van, Tran Tuan, Xuan Dai, Dang Kien, Danh Hao |
 
 > A native mobile application connecting travelers, tour guides, and administrators, supporting tour discovery, booking, guide dispatching, and in-app real-time communication.
 
@@ -194,10 +205,10 @@ Hi, I'm Tran Tuan, a Software Engineering graduate from FPT University. I'm inte
 
 ### 🗂️ OrbiTasks - Task & Project Management Website
 
-| **Project Details** | **Information** |
-| :--- | :--- |
-| **Course** | Front-End Web Development with React - FER202 |
-| **Team Members** | Phuong Anh, Tran Tuan, Hoang, Manh, Phu, Bui Duong |
+| **Project Details** | **Information**                                    |
+| :------------------ | :------------------------------------------------- |
+| **Course**          | Front-End Web Development with React - FER202      |
+| **Team Members**    | Phuong Anh, Tran Tuan, Hoang, Manh, Phu, Bui Duong |
 
 > A task and project management website that helps students and teams organize projects, assign tasks, and track progress visually with Kanban boards and maps.
 
@@ -211,7 +222,7 @@ Hi, I'm Tran Tuan, a Software Engineering graduate from FPT University. I'm inte
 
 **Repository:** [View task-management-website-personal](https://github.com/trantuandev/task-management-website-personal)
 
-## 📊 Combined Contribution Activity
+## 4. Combined Contribution Activity
 
 <div align="center" id="contribution-dashboard">
   <a href="https://github.com/trantuandev">
@@ -225,7 +236,6 @@ Hi, I'm Tran Tuan, a Software Engineering graduate from FPT University. I'm inte
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=trantuandev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="GitHub stats" />
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=trantuandev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top languages" />
 </p>
-
 
 <h3 align="center">🐍 My GitHub Contributions</h3>
 
